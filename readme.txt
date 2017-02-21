@@ -1,16 +1,12 @@
-Read Me
-
-The dining philosopher problem has been implemented using semaphores and mmap in this assignment. 
-
 The number of semaphores and their initial counter values are as follows:
 
-Semaphore		Total Number			Initial count
-
-Semap1			no of philosophers		0
-Global_lock		1				1
-Barrier			1				0
-Counter			1				0
-Status			no of philosophers		0
+--Semaphore--		      --Total Number--			    --Initial count--
+  
+Semap1			         no of philosophers		            0
+Global_lock		               1			            	    1
+Barrier			                 1				                0
+Counter			                 1				                0
+Status			          no of philosophers		          0
 
 There are 3 programs and 1 header file:
 1. ’smp.h’
